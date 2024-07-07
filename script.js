@@ -1,6 +1,7 @@
 function shortcut(s1, s2) {
   let shortForm = "";
-	shortForm += "'"s1[0] + s2[0]"'";
+	shortForm += "'"+s1[0] + s2[0]+"'";
+	return shortForm;
 }
 
 // Do not change the code below.
